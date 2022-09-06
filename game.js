@@ -110,7 +110,7 @@ let is_collusion ;
         }
         else {
             let parse_score = parseInt(score)-1;
-            // alert("The game is over! Your score is " + parse_score + ". Refresh to play again")
+            alert("The game is over! Your score is " + parse_score + ". Refresh to play again")
             current_score.innerHTML = "Please refresh  the page to record a new score";
         }
     }, 100);
