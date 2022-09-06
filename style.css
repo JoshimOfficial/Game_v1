@@ -1,0 +1,62 @@
+body {
+    background-color: #191c23!important;
+    overflow: hidden;
+}
+
+.background_nature {
+    width: 100%;
+}
+
+.background_road {
+    width: 100%;
+}
+
+.character_png {
+    width: 150px;
+    position:relative;
+}
+
+.cactus_png {
+    width: 100px;
+    position: relative;
+    /* animation-duration: 3s;
+    animation: 0s linear 0s infinite normal none running run_cacts; */
+}
+.cacts_character {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -450px;
+}
+
+
+@keyframes run_cacts {
+        0% {
+            right: 0px;
+        }
+        100% {
+          right: 1920px;
+        }
+    }
+
+
+  .score_sec.position-absolute {
+    background: #2f3640;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border-radius: 3px;
+    width: fit-content;
+  }
+
+
+  .coundown {
+    position: absolute;
+    font-size: 350px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .started {
+    transition: 1s;
+  }
